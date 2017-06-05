@@ -1,8 +1,8 @@
 function drawTree(h) {
-    for ( i=1; i<=h ; i++ ) {
+    for (var i=1; i<=h ; i++ ) {
         var star = '';
-        for (j=0 ; j<i ; j++){
-            var star = star +'*';
+        for (var j=0 ; j<i ; j++){
+            star = star +'*';
         }
         console.log(star);
     }
